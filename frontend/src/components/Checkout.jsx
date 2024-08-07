@@ -67,17 +67,7 @@ const Checkout = () => {
             navigate("/oderconfirmation");
           }
         },
-        prefill: {
-          name: "Web Dev Mastery",
-          email: "webdevmastery@gmail.com",
-          contact: "9000090000",
-        },
-        notes: {
-          address: "Vijay Nagar Indore",
-        },
-        theme: {
-          color: "#3399cc",
-        },
+       
       };
       const rzp = new window.Razorpay(options);
       rzp.open();
